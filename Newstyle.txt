@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--bg-color, #ffffff);
+    color: var(--text-color, #333);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header */
+header {
+    background: var(--header-bg, #333);
+    color: var(--header-text, #fff);
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: var(--header-text, #fff);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Sections */
+section {
+    padding: 2rem;
+    border-bottom: 1px solid #ccc;
+}
+
+h2, h3, h4 {
+    color: var(--heading-color, #222);
+}
+
+/* Articles Page */
+.articles {
+    text-align: center;
+    padding: 2rem;
+}
+
+.articles ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.articles ul li {
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Projects Page */
+.projects {
+    text-align: center;
+    padding: 2rem;
+}
+
+.projects ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects ul li {
+    background: #f4f4f4 !important;
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Contacts Page */
+.contact {
+    text-align: center;
+    padding: 2rem;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact ul li {
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: var(--header-bg, #333);
+    color: var(--header-text, #fff);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
